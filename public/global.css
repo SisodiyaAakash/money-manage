@@ -1,0 +1,150 @@
+body {
+  padding: 0%;
+  margin: 0%;
+  overflow-x: hidden;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+  margin: 0%;
+  padding: 0%;
+  font-weight: 500;
+}
+
+.name {
+  position: fixed;
+  width: 100%;
+  background-color: #fff;
+  padding: 1rem;
+  align-items: center;
+  text-align: center;
+  font-size: calc(25px+0.4vw);
+  border-bottom: 1px solid #ddd;
+  z-index: 500;
+}
+.container {
+  padding: 5rem 0;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero h2 {
+  font-size: calc(25px + 0.5vw);
+}
+.hero img {
+  width: 60%;
+}
+.input-earn {
+  border-top: 1px solid #ddd;
+  margin-top: 2rem;
+  padding: 2rem;
+  width: 100;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+input {
+  padding: 1rem 0.5rem;
+  border: 1px solid #b4b4b4;
+  border-radius: 8px;
+  outline: none;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.input-earn input {
+  width: 20%;
+  font-size: calc(15px + 0.4vw);
+}
+.result {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.result-itm {
+  margin: 1rem 0;
+  border: 1px solid #dedede;
+  width: 25%;
+  padding: 1.5rem;
+  font-size: calc(20px + 0.5vw);
+  text-align: center;
+}
+.result-itm p {
+  font-size: calc(12px + 0.4vw);
+}
+.big {
+  font-size: calc(25px + 0.5vw);
+}
+
+.rule-72 {
+  width: 100%;
+  background-color: #dddd;
+  text-align: center;
+}
+.rule-72 input {
+  width: 30%;
+  margin-top: 3rem;
+  text-align: center;
+  font-size: calc(18px + 0.4vw);
+}
+.input-double {
+  display: flex;
+  flex-direction: column;
+}
+.input-double h4 {
+  margin-top: 2rem;
+  font-size: calc(18px + 0.4vw);
+}
+
+@media screen and (max-width: 768px) {
+  .name {
+    padding: 0.5rem;
+    font-size: calc(20px + 0.5vw);
+  }
+  .container {
+    padding: 5rem 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .hero {
+    justify-content: center;
+    text-align: center;
+  }
+  .hero h2 {
+    font-size: calc(18px + 0.5vw);
+  }
+  .hero img {
+    margin-top: 2rem;
+    width: 100%;
+  }
+  .input-earn input {
+    width: 80%;
+  }
+  .result-itm {
+    font-size: calc(15px + 0.5vw);
+  }
+  .result-itm p {
+    font-size: calc(10px + 0.4vw);
+  }
+  .big {
+    font-size: calc(20px + 0.5vw);
+  }
+  .input-double input{
+	  width: 50%;
+  }
+}
